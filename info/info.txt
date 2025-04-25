@@ -1,0 +1,35 @@
+Ping Pong
+	
+	-Class
+		*Ball
+			-fonction
+				*creeBall
+				*couleur
+		*Fenetre
+			-appel ball
+		*Deplacement
+			-fonction
+				*deplacable
+		*PingPong
+			-appel Fenetre
+		*pannel
+
+
+*Rally
+	MISSI sPECIAL MAROMARO
+		-special1 = segmentation circuit 1
+			*concurrent le manao rally
+				-missi Groupe ex: A,B,C
+	but:
+		fenetre 1
+			saisie rally : nombre special , liste concurrent
+		fenetre 2 
+			saisie temps
+				ex : special 1 - 12 s
+							 2 - 15 s
+							 ........
+		Saisie 3
+			Classement:
+				ordre croissant meilleur temps par rally
+				ordre croissant par groupe
+
